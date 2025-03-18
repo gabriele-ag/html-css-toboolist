@@ -11,6 +11,11 @@ img {
 }
 
 /* Common */
+.container {
+	width: 80%;
+	margin: 0 auto;
+}
+
 body {
     font-family: Arial, Helvetica, sans-serif;
     background-color: rgb(245, 244, 244);
@@ -18,11 +23,37 @@ body {
 
 /* Header */
 
-.header {
+.Logo {
     padding-left: 15px;
     padding-top: 15px;
 }
+
 h1 {
     font-weight: bolder;
     display: inline-block;
+}
+
+/* Main */
+
+.collegamenti {
+    margin-top: 100px;
+    margin-left: 130px;
+}
+.collegamenti a {
+    border-radius: 10px ;
+    text-decoration: none;
+    font-size: 15px;
+    padding: 10px 15px;
+}
+
+.linkblu {
+    background-color: rgb(3, 114, 241);
+    color: white;
+}
+
+.linkgrigio {
+    border-color: rgb(7, 5, 5);
+    border: 1px solid;
+    border-color: lightgray;
+    color: lightgray;   
 }
