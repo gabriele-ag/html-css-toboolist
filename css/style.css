@@ -24,13 +24,16 @@ body {
 /* Header */
 
 .Logo {
-    padding-left: 15px;
-    padding-top: 15px;
+    padding-left: 20px;
+    padding-top: 20px;
+    vertical-align: middle;
 }
 
 h1 {
     font-weight: bolder;
     display: inline-block;
+    vertical-align: middle;
+    padding-bottom: 30px;
 }
 
 /* Main */
@@ -54,9 +57,8 @@ h1 {
 }
 
 .linkgrigio {
-    border: 1px solid;
-    border-color: lightgray;
-    color: lightgray;   
+    border: 1px solid rgb(211, 211, 211);  
+    color: rgb(211, 211, 211); 
 }
 
 /* lista */
@@ -68,13 +70,16 @@ h1 {
 
 .boxlist {
     margin-bottom: 30px;
+    list-style-type: "\1F783";
+    display: list-item;
 }
 
 .boxlist2 {
     list-style: none;
 }
 
-.titlelist {
+.titlelist,
+.textlist {
     margin-bottom: 8px;
 }
 
@@ -91,14 +96,12 @@ h1 {
 
 .crosslist {
     color: red;
-    border: 2px solid;
-    border-color: red;
+    border: 2px solid rgb(255, 0, 0);
     border-radius: 10px;
     padding: 2px;
     margin-right: 3px;
     font-weight: bold;
     font-size: 10px;
-    margin-top: 2px;
 }
 
 .checklist {
@@ -130,4 +133,12 @@ h1 {
 
 .sales {
     background-color: rgb(162, 202, 15);
+}
+
+/* Footer */
+
+.footer {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(168, 168, 168);
+    margin: 70px 230px;
 }
