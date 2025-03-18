@@ -47,7 +47,8 @@ h1 {
     padding: 10px 15px;
 }
 
-.linkblu {
+.linkblu,
+.editorial {
     background-color: rgb(3, 114, 241);
     color: white;
 }
@@ -85,6 +86,7 @@ h1 {
     padding: 10px 15px;
     display: inline-block;
     margin: 5px 10px;
+    color: aliceblue;
 }
 
 .crosslist {
@@ -100,7 +102,7 @@ h1 {
 }
 
 .checklist {
-    color: green;
+    color: rgb(0, 128, 0);
     border: 2px solid;
     border-color: green;
     border-radius: 10px;
@@ -108,4 +110,24 @@ h1 {
     margin-right: 3px;
     font-weight: bold;
     font-size: 10px;
+}
+
+.q1goals {
+    background-color: rgb(138, 43, 226);
+}
+
+.recruiting {
+    background-color: rgb(25, 153, 25);
+}
+
+.mobile {
+    background-color: rgb(255, 165, 0);
+}
+
+.website {
+    background-color: rgb(187, 27, 75);
+}
+
+.sales {
+    background-color: rgb(162, 202, 15);
 }
