@@ -35,8 +35,9 @@ h1 {
 
 /* Main */
 
+/* collegamenti */
 .collegamenti {
-    margin-top: 100px;
+    margin-top: 80px;
     margin-left: 130px;
 }
 .collegamenti a {
@@ -56,4 +57,22 @@ h1 {
     border: 1px solid;
     border-color: lightgray;
     color: lightgray;   
+}
+
+/* lista */
+
+.list {
+    margin-top: 60px;
+}
+
+.boxlist {
+    margin-bottom: 30px;
+}
+
+.type {
+    border-radius: 20px ;
+    text-decoration: none;
+    font-size: 13px;
+    padding: 10px 15px;
+    display: inline-block;
 }
